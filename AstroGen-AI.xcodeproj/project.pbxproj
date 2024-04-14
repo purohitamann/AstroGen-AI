@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A13F37642BCC4BD10097DDC8 /* AstroGen_AIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13F37632BCC4BD10097DDC8 /* AstroGen_AIApp.swift */; };
+		A13F37662BCC4BD10097DDC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13F37652BCC4BD10097DDC8 /* ContentView.swift */; };
+		A13F37682BCC4BD30097DDC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13F37672BCC4BD30097DDC8 /* Assets.xcassets */; };
+		A13F376B2BCC4BD30097DDC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13F376A2BCC4BD30097DDC8 /* Preview Assets.xcassets */; };
+		A13F37752BCC4BD30097DDC8 /* AstroGen_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13F37742BCC4BD30097DDC8 /* AstroGen_AITests.swift */; };
+		A13F377F2BCC4BD30097DDC8 /* AstroGen_AIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13F377E2BCC4BD30097DDC8 /* AstroGen_AIUITests.swift */; };
+		A13F37812BCC4BD30097DDC8 /* AstroGen_AIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13F37802BCC4BD30097DDC8 /* AstroGen_AIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A13F37712BCC4BD30097DDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13F37582BCC4BD10097DDC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13F375F2BCC4BD10097DDC8;
+			remoteInfo = "AstroGen-AI";
+		};
+		A13F377B2BCC4BD30097DDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13F37582BCC4BD10097DDC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13F375F2BCC4BD10097DDC8;
+			remoteInfo = "AstroGen-AI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A13F37602BCC4BD10097DDC8 /* AstroGen-AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AstroGen-AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13F37632BCC4BD10097DDC8 /* AstroGen_AIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroGen_AIApp.swift; sourceTree = "<group>"; };
+		A13F37652BCC4BD10097DDC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A13F37672BCC4BD30097DDC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A13F376A2BCC4BD30097DDC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A13F37702BCC4BD30097DDC8 /* AstroGen-AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AstroGen-AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13F37742BCC4BD30097DDC8 /* AstroGen_AITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroGen_AITests.swift; sourceTree = "<group>"; };
+		A13F377A2BCC4BD30097DDC8 /* AstroGen-AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AstroGen-AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13F377E2BCC4BD30097DDC8 /* AstroGen_AIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroGen_AIUITests.swift; sourceTree = "<group>"; };
+		A13F37802BCC4BD30097DDC8 /* AstroGen_AIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroGen_AIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13F375D2BCC4BD10097DDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13F376D2BCC4BD30097DDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13F37772BCC4BD30097DDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A13F37572BCC4BD10097DDC8 = {
+			isa = PBXGroup;
+			children = (
+				A13F37622BCC4BD10097DDC8 /* AstroGen-AI */,
+				A13F37732BCC4BD30097DDC8 /* AstroGen-AITests */,
+				A13F377D2BCC4BD30097DDC8 /* AstroGen-AIUITests */,
+				A13F37612BCC4BD10097DDC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A13F37612BCC4BD10097DDC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13F37602BCC4BD10097DDC8 /* AstroGen-AI.app */,
+				A13F37702BCC4BD30097DDC8 /* AstroGen-AITests.xctest */,
+				A13F377A2BCC4BD30097DDC8 /* AstroGen-AIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13F37622BCC4BD10097DDC8 /* AstroGen-AI */ = {
+			isa = PBXGroup;
+			children = (
+				A13F37632BCC4BD10097DDC8 /* AstroGen_AIApp.swift */,
+				A13F37652BCC4BD10097DDC8 /* ContentView.swift */,
+				A13F37672BCC4BD30097DDC8 /* Assets.xcassets */,
+				A13F37692BCC4BD30097DDC8 /* Preview Content */,
+			);
+			path = "AstroGen-AI";
+			sourceTree = "<group>";
+		};
+		A13F37692BCC4BD30097DDC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A13F376A2BCC4BD30097DDC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A13F37732BCC4BD30097DDC8 /* AstroGen-AITests */ = {
+			isa = PBXGroup;
+			children = (
+				A13F37742BCC4BD30097DDC8 /* AstroGen_AITests.swift */,
+			);
+			path = "AstroGen-AITests";
+			sourceTree = "<group>";
+		};
+		A13F377D2BCC4BD30097DDC8 /* AstroGen-AIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A13F377E2BCC4BD30097DDC8 /* AstroGen_AIUITests.swift */,
+				A13F37802BCC4BD30097DDC8 /* AstroGen_AIUITestsLaunchTests.swift */,
+			);
+			path = "AstroGen-AIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A13F375F2BCC4BD10097DDC8 /* AstroGen-AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13F37842BCC4BD30097DDC8 /* Build configuration list for PBXNativeTarget "AstroGen-AI" */;
+			buildPhases = (
+				A13F375C2BCC4BD10097DDC8 /* Sources */,
+				A13F375D2BCC4BD10097DDC8 /* Frameworks */,
+				A13F375E2BCC4BD10097DDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AstroGen-AI";
+			productName = "AstroGen-AI";
+			productReference = A13F37602BCC4BD10097DDC8 /* AstroGen-AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A13F376F2BCC4BD30097DDC8 /* AstroGen-AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13F37872BCC4BD30097DDC8 /* Build configuration list for PBXNativeTarget "AstroGen-AITests" */;
+			buildPhases = (
+				A13F376C2BCC4BD30097DDC8 /* Sources */,
+				A13F376D2BCC4BD30097DDC8 /* Frameworks */,
+				A13F376E2BCC4BD30097DDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13F37722BCC4BD30097DDC8 /* PBXTargetDependency */,
+			);
+			name = "AstroGen-AITests";
+			productName = "AstroGen-AITests";
+			productReference = A13F37702BCC4BD30097DDC8 /* AstroGen-AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A13F37792BCC4BD30097DDC8 /* AstroGen-AIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13F378A2BCC4BD30097DDC8 /* Build configuration list for PBXNativeTarget "AstroGen-AIUITests" */;
+			buildPhases = (
+				A13F37762BCC4BD30097DDC8 /* Sources */,
+				A13F37772BCC4BD30097DDC8 /* Frameworks */,
+				A13F37782BCC4BD30097DDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13F377C2BCC4BD30097DDC8 /* PBXTargetDependency */,
+			);
+			name = "AstroGen-AIUITests";
+			productName = "AstroGen-AIUITests";
+			productReference = A13F377A2BCC4BD30097DDC8 /* AstroGen-AIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13F37582BCC4BD10097DDC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A13F375F2BCC4BD10097DDC8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A13F376F2BCC4BD30097DDC8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A13F375F2BCC4BD10097DDC8;
+					};
+					A13F37792BCC4BD30097DDC8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A13F375F2BCC4BD10097DDC8;
+					};
+				};
+			};
+			buildConfigurationList = A13F375B2BCC4BD10097DDC8 /* Build configuration list for PBXProject "AstroGen-AI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A13F37572BCC4BD10097DDC8;
+			productRefGroup = A13F37612BCC4BD10097DDC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13F375F2BCC4BD10097DDC8 /* AstroGen-AI */,
+				A13F376F2BCC4BD30097DDC8 /* AstroGen-AITests */,
+				A13F37792BCC4BD30097DDC8 /* AstroGen-AIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13F375E2BCC4BD10097DDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13F376B2BCC4BD30097DDC8 /* Preview Assets.xcassets in Resources */,
+				A13F37682BCC4BD30097DDC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13F376E2BCC4BD30097DDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13F37782BCC4BD30097DDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13F375C2BCC4BD10097DDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13F37662BCC4BD10097DDC8 /* ContentView.swift in Sources */,
+				A13F37642BCC4BD10097DDC8 /* AstroGen_AIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13F376C2BCC4BD30097DDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13F37752BCC4BD30097DDC8 /* AstroGen_AITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13F37762BCC4BD30097DDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13F377F2BCC4BD30097DDC8 /* AstroGen_AIUITests.swift in Sources */,
+				A13F37812BCC4BD30097DDC8 /* AstroGen_AIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A13F37722BCC4BD30097DDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13F375F2BCC4BD10097DDC8 /* AstroGen-AI */;
+			targetProxy = A13F37712BCC4BD30097DDC8 /* PBXContainerItemProxy */;
+		};
+		A13F377C2BCC4BD30097DDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13F375F2BCC4BD10097DDC8 /* AstroGen-AI */;
+			targetProxy = A13F377B2BCC4BD30097DDC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A13F37822BCC4BD30097DDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A13F37832BCC4BD30097DDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A13F37852BCC4BD30097DDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AstroGen-AI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZCPKHA3J3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.purohitamann.AstroGen-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A13F37862BCC4BD30097DDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AstroGen-AI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZCPKHA3J3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.purohitamann.AstroGen-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A13F37882BCC4BD30097DDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZCPKHA3J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.purohitamann.AstroGen-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroGen-AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AstroGen-AI";
+			};
+			name = Debug;
+		};
+		A13F37892BCC4BD30097DDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZCPKHA3J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.purohitamann.AstroGen-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroGen-AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AstroGen-AI";
+			};
+			name = Release;
+		};
+		A13F378B2BCC4BD30097DDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZCPKHA3J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.purohitamann.AstroGen-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AstroGen-AI";
+			};
+			name = Debug;
+		};
+		A13F378C2BCC4BD30097DDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZCPKHA3J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.purohitamann.AstroGen-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AstroGen-AI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13F375B2BCC4BD10097DDC8 /* Build configuration list for PBXProject "AstroGen-AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13F37822BCC4BD30097DDC8 /* Debug */,
+				A13F37832BCC4BD30097DDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13F37842BCC4BD30097DDC8 /* Build configuration list for PBXNativeTarget "AstroGen-AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13F37852BCC4BD30097DDC8 /* Debug */,
+				A13F37862BCC4BD30097DDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13F37872BCC4BD30097DDC8 /* Build configuration list for PBXNativeTarget "AstroGen-AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13F37882BCC4BD30097DDC8 /* Debug */,
+				A13F37892BCC4BD30097DDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13F378A2BCC4BD30097DDC8 /* Build configuration list for PBXNativeTarget "AstroGen-AIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13F378B2BCC4BD30097DDC8 /* Debug */,
+				A13F378C2BCC4BD30097DDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13F37582BCC4BD10097DDC8 /* Project object */;
+}

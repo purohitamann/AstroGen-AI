@@ -1,24 +1,56 @@
-//
-//  ContentView.swift
-//  AstroGen-AI
-//
-//  Created by Aman Purohit on 2024-04-14.
-//
-
 import SwiftUI
+import GoogleGenerativeAI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+  let model = GenerativeModel(name: "gemini-pro", apiKey: "") // Replace "" with your API key
+  @State var textInput = ""
+  @State var aiResponse = "Hello! I am your personal Astrologer. How can I help you today?"
+
+  var body: some View {
+    VStack {
+      ScrollView {
+        Text(aiResponse)
+          .font(.largeTitle)
+          .multilineTextAlignment(.center)
+      }
+      HStack {
+        TextField("Enter a message", text: $textInput)
+          .textFieldStyle(.roundedBorder)
+          .foregroundColor(.black)
+          .onSubmit { // Capture Enter key press
+         sendMessage()
+          }
+        Button(action: sendMessage, label: { Text("Send") }) // Optional Send button
+      }
     }
+    .foregroundColor(.white)
+    .padding()
+    .background {
+      ZStack {
+        Color.black
+      }
+      .ignoresSafeArea()
+    }
+  }
+
+  func sendMessage() {
+    aiResponse = ""
+    Task {
+      do {
+        let response = try await model.generateContent(textInput)
+        guard let text = response.text else {
+          textInput = "Sorry, I could not process that. \nPlease try again."
+          return
+        }
+        textInput = ""
+        aiResponse = text
+      } catch {
+        aiResponse = "Something went wrong! \n\(error.localizedDescription)"
+      }
+    }
+  }
 }
 
 #Preview {
-    ContentView()
+  ContentView()
 }

@@ -14,6 +14,9 @@
 		A13F37752BCC4BD30097DDC8 /* AstroGen_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13F37742BCC4BD30097DDC8 /* AstroGen_AITests.swift */; };
 		A13F377F2BCC4BD30097DDC8 /* AstroGen_AIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13F377E2BCC4BD30097DDC8 /* AstroGen_AIUITests.swift */; };
 		A13F37812BCC4BD30097DDC8 /* AstroGen_AIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13F37802BCC4BD30097DDC8 /* AstroGen_AIUITestsLaunchTests.swift */; };
+		A13F37932BCC4FE60097DDC8 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = A13F37922BCC4FE60097DDC8 /* GoogleGenerativeAI */; };
+		A15916632BCCDA41003C7DE7 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15916622BCCDA41003C7DE7 /* APIKey.swift */; };
+		A15916652BCCDDD8003C7DE7 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A15916642BCCDDD8003C7DE7 /* GenerativeAI-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,8 @@
 		A13F377A2BCC4BD30097DDC8 /* AstroGen-AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AstroGen-AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13F377E2BCC4BD30097DDC8 /* AstroGen_AIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroGen_AIUITests.swift; sourceTree = "<group>"; };
 		A13F37802BCC4BD30097DDC8 /* AstroGen_AIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroGen_AIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A15916622BCCDA41003C7DE7 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		A15916642BCCDDD8003C7DE7 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13F37932BCC4FE60097DDC8 /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,7 @@
 				A13F37732BCC4BD30097DDC8 /* AstroGen-AITests */,
 				A13F377D2BCC4BD30097DDC8 /* AstroGen-AIUITests */,
 				A13F37612BCC4BD10097DDC8 /* Products */,
+				A13F37902BCC4F2E0097DDC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +105,8 @@
 				A13F37652BCC4BD10097DDC8 /* ContentView.swift */,
 				A13F37672BCC4BD30097DDC8 /* Assets.xcassets */,
 				A13F37692BCC4BD30097DDC8 /* Preview Content */,
+				A15916622BCCDA41003C7DE7 /* APIKey.swift */,
+				A15916642BCCDDD8003C7DE7 /* GenerativeAI-Info.plist */,
 			);
 			path = "AstroGen-AI";
 			sourceTree = "<group>";
@@ -127,6 +136,13 @@
 			path = "AstroGen-AIUITests";
 			sourceTree = "<group>";
 		};
+		A13F37902BCC4F2E0097DDC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +159,9 @@
 			dependencies = (
 			);
 			name = "AstroGen-AI";
+			packageProductDependencies = (
+				A13F37922BCC4FE60097DDC8 /* GoogleGenerativeAI */,
+			);
 			productName = "AstroGen-AI";
 			productReference = A13F37602BCC4BD10097DDC8 /* AstroGen-AI.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +234,10 @@
 				Base,
 			);
 			mainGroup = A13F37572BCC4BD10097DDC8;
+			packageReferences = (
+				A13F378F2BCC4E160097DDC8 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				A13F37912BCC4F4A0097DDC8 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = A13F37612BCC4BD10097DDC8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +256,7 @@
 			files = (
 				A13F376B2BCC4BD30097DDC8 /* Preview Assets.xcassets in Resources */,
 				A13F37682BCC4BD30097DDC8 /* Assets.xcassets in Resources */,
+				A15916652BCCDDD8003C7DE7 /* GenerativeAI-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A13F37662BCC4BD10097DDC8 /* ContentView.swift in Sources */,
+				A15916632BCCDA41003C7DE7 /* APIKey.swift in Sources */,
 				A13F37642BCC4BD10097DDC8 /* AstroGen_AIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +613,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A13F378F2BCC4E160097DDC8 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		A13F37912BCC4F4A0097DDC8 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A13F37922BCC4FE60097DDC8 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13F37912BCC4F4A0097DDC8 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A13F37582BCC4BD10097DDC8 /* Project object */;
 }
